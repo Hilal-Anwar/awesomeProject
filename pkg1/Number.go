@@ -21,6 +21,6 @@ func Is_Pronic_Number(n float64) bool {
 	b := (a + 1) * 0.5
 	return b-math.Trunc(b) == 0 && b*(b-1) == n
 }
-func Add_digit(n int ,d int ,p int ){
-	
+func Add_digit(n int ,d int ,p int ) int{
+	return n+d+p;
 }
